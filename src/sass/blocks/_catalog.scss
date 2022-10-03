@@ -65,6 +65,7 @@
             font-weight: 700;
             color: #0d0d0d;
             text-align: center;
+            text-transform: uppercase;
         }
         &__descr {
             margin-top: 16px;
@@ -72,6 +73,7 @@
             font-weight: 300;
             color: #0d0d0d;
             text-align: center;
+            padding: 0 20px;
         }
         &__link {
             display: block;
