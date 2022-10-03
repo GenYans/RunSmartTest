@@ -1,0 +1,28 @@
+.reviews {
+    padding: 103px 0 71px 0;
+    &__item {
+        float: left;
+        img {
+            float: left;
+            padding: 0 62px 0 0 ;
+        }
+    }
+    &__name {
+        font-size: 18px;
+        font-weight: 700;
+        color: #0d0d0d;
+    }
+    &__subtitle {
+        padding: 10px 0 0 0;
+        font-size: 14px;
+        font-weight: 300;
+        color: #646464;
+    }
+    &__descr {
+        
+        padding: 19px 0 0 0;
+        font-size: 16px;
+        font-weight: 300;
+        color: #0d0d0d;
+    }
+}
