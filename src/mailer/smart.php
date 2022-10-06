@@ -18,7 +18,7 @@ $mail->Password = 'Gennadiy201020152010';                           // Наш п
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465;                                    // TCP port to connect to
  
-$mail->setFrom('gennadyanelis@gmail.com', 'Pulse');   // От кого письмо 
+$mail->setFrom('gennadyanelis@gmail.com', 'RunSmarTest');   // От кого письмо 
 $mail->addAddress('sodole1121@cebaike.com');     // Add a recipient
 //$mail->addAddress('ellen@example.com');               // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');

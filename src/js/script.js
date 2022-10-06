@@ -84,7 +84,7 @@ $(document).ready(function(){
 
     // $('input[name=phone]').mask("+7 (999) 999-9999");
 
-    $('form').submit(function(e){
+    $('form').submit(function(e) {
         e.preventDefault();
 
         if (!$(this).valid()) {
@@ -97,10 +97,11 @@ $(document).ready(function(){
             data: $(this).serialize()
         }).done(function() {
             $(this).find("input").val("");
-
+            $('#consultation, #order').fadeOut();
+            $('.overlay, #thanks').fadeIn('slow');
 
             $('form').trigger('reset');
         });
         return false;
-    })
+    });
 });
