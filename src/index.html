@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <section class="promo">
+    <div class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -31,8 +31,8 @@
             </header>
 
             <section class="promo__wrapper">
-                <h1 class="promo__header">Подбор пульсометра и часов</h1>
-                <h2 class="promo__subheader">с учётом Вашего уровня подготовки</h2>
+                <h2 class="promo__header">Подбор пульсометра и часов</h2>
+                <h3 class="promo__subheader">с учётом Вашего уровня подготовки</h3>
 
                 <div class="promo__icons">
                     <div class="promo__icon">
@@ -60,7 +60,7 @@
             </section>
             
         </div>
-    </section>
+    </div>
 
     <section class="benefits">
         <div class="container">
@@ -83,7 +83,7 @@
                     </div>
                     <div class="benefits__descr">
                         Мы работаем для того, 
-                        чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!           
+                        чтобы Ваши занятия спортом шли на вред Вашему здоровью и были в гадость Вам и Вашим близким!           
                     </div>
                 </div>
                 <div class="benefits__item">
@@ -94,7 +94,7 @@
                     <div class="benefits__descr">
                         Помогаем с обучением 
                         правильной технике бега!<br>
-                        Дружим с крупнейшей школой бега в России - 
+                        Дружим с крупнейшей школой бега в Узбекистане - 
                         <a href="#">I LOVE RUNNING.</a>
                     </div>
                 </div>
@@ -113,15 +113,15 @@
                     и мы перезвоним вам в течении 10 минут
                 </div>
                 <form id="consultation-form" class="reviews-form" action="#">
-                        <input name="name"required placeholder="Ваше имя" type="text">
-                        <input name="phone"required placeholder="Ваш телефон">
-                        <input name="email"required placeholder="Ваш E-mail" type="email">          
+                        <input name="name" required placeholder="Ваше имя" type="text">
+                        <input name="phone" required placeholder="Ваш телефон">
+                        <input name="email" required placeholder="Ваш E-mail" type="email">          
                         <button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
                 </form>
             </div>
         </section>
 
-    <section class="carousel">
+    <div class="carousel">
         <div class="container">
             <div class="carousel__inner">
                 <div>
@@ -135,7 +135,7 @@
                 </div>
               </div>
         </div>
-    </section>
+    </div>
 
     <section class="catalog" id="catalog">
         <div class="container">
@@ -235,7 +235,7 @@
                 <div class="catalog-item">
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content catalog-item__content_active">
-                            <img src="img/Polar A370.png" alt="А370" class="catalog-item__img">
+                            <img src="img/PolarA370.png" alt="А370" class="catalog-item__img">
                             <div class="catalog-item__subtitle">Polar A370</div>
                             <div class="catalog-item__descr">Оставайся в ритме жизни <br> в режиме 24/7</div>
                             <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
@@ -352,7 +352,7 @@
                     
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content catalog-item__content_active">
-                            <img src="img/polar fusion.png" alt="fusion" class="catalog-item__img">
+                            <img src="img/polarfusion.png" alt="fusion" class="catalog-item__img">
                             <div class="catalog-item__subtitle">БРАСЛЕТ POLAR FKM-FUSION <br> 22 ММ — Grit X, Grit X Pro, Vantage M, M2, V2 Shift
                             </div>
                             <div class="catalog-item__descr">Браслет FKM-Fusion — прочный гибрид высококачественной основы из фторэластомера и верхнего слоя из технического волокна для максимального комфорта и гибкости</div>
@@ -472,8 +472,7 @@
     </section>
 
     <footer class="footer">
-        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ac437290d474fd298a9492114b56ea14fdd1c88853c792232623837d036432828&amp;source=constructor" width="100%" height="630" frameborder="0"></iframe>
-
+        <iframe class="footer__inframe" src="https://yandex.ru/map-widget/v1/?um=constructor%3Ac437290d474fd298a9492114b56ea14fdd1c88853c792232623837d036432828&amp;source=constructor"></iframe>
         <div class="footer__info">
             <address class="footer__addr">г. Санкт-Петербург, Невский проспект, д. 59</address>
             <a class="footer__phone" href="tel:84999228974">8 (499) 922-89-74</a>
@@ -491,9 +490,9 @@
             <div class="modal__subtitle">Просто заполните форму заявки</div>
             <div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
             <form class="reviews-form reviews-form_mt25" action="#">
-                <input name="name"placeholder="Ваше имя" type="text">
-                <input name="phone"maxlength="11" placeholder="Ваш телефон">
-                <input name="email"placeholder="Ваш E-mail" type="email">          
+                <input name="name" placeholder="Ваше имя" type="text">
+                <input name="phone" maxlength="11" placeholder="Ваш телефон">
+                <input name="email" placeholder="Ваш E-mail" type="email">          
                 <button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
             </form>
         </div>
@@ -518,8 +517,8 @@
     </div>
 
 
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
